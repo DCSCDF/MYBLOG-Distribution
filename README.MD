@@ -1,5 +1,6 @@
 <h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">MyBlog 博客/CMS管理系统</h1>
 
+
 ---
 ## 项目使用的技术栈
 ### 后端
@@ -31,3 +32,8 @@
 > - [后端部署教程](MyBlogSERVER/readme.md)
 > - [前端部署教程](MyBlogWEB/readme.md)
 > - [前端-后台管理部署教程](MyBlogWEB_ADMIN/readme.md)
+
+## 预览图
+![968ee367-4fd5-4388-bb8d-bd647dce15ee.png](968ee367-4fd5-4388-bb8d-bd647dce15ee.png)
+![6560fc1e-5a52-4919-8195-574c87f1b20d.png](6560fc1e-5a52-4919-8195-574c87f1b20d.png)
+![f2dc8af1-b8a7-416b-8d7f-3a1e59853a20.png](f2dc8af1-b8a7-416b-8d7f-3a1e59853a20.png)
