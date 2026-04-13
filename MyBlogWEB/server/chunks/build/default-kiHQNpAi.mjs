@@ -3919,7 +3919,7 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
       const _component_NuxtLink = __nuxt_component_0$1;
       const _component_ClientOnly = __nuxt_component_1$1$1;
       const _component_MenuOutlined = MenuOutlined;
-      _push(`<!--[--><nav class="${ssrRenderClass([unref(isVisible) || unref(isMenuOpen) ? "translate-y-0" : "-translate-y-full", "fixed top-4 left-1/2 -translate-x-1/2 w-[95%] md:max-w-2xl max-w-xl rounded-full px-4 py-2 border border-gray-200/50 bg-white/70 backdrop-blur-md flex items-center justify-between z-50 shadow-[0_8px_32px_rgba(22,119,255,0.04)] transition-transform duration-300"])}" data-allow-mismatch data-v-15dcd700><div class="text-lg font-bold tracking-tighter text-gray-900 px-3 flex items-center" data-v-15dcd700><img alt="" height="30"${ssrRenderAttr("src", _imports_0$1)} width="30" data-v-15dcd700></div><div class="hidden md:flex items-center gap-8" data-v-15dcd700><!--[-->`);
+      _push(`<!--[--><nav class="${ssrRenderClass([unref(isVisible) || unref(isMenuOpen) ? "translate-y-0" : "-translate-y-full", "fixed top-4 left-1/2 -translate-x-1/2 w-[95%] md:max-w-2xl max-w-xl rounded-full px-4 py-2 border border-gray-200/50 bg-white/70 backdrop-blur-md flex items-center justify-between z-50 shadow-[0_8px_32px_rgba(22,119,255,0.04)] transition-transform duration-300"])}" data-allow-mismatch data-v-f8232755><div class="text-lg font-bold tracking-tighter text-gray-900 px-3 flex items-center" data-v-f8232755><img alt="" height="30"${ssrRenderAttr("src", _imports_0$1)} width="30" data-v-f8232755></div><div class="hidden md:flex items-center gap-8" data-v-f8232755><!--[-->`);
       ssrRenderList(unref(menu), (item, index) => {
         _push(ssrRenderComponent(_component_NuxtLink, {
           key: index,
@@ -3941,11 +3941,11 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
       });
       _push(`<!--]-->`);
       if (unref(showCategoryDropdown)) {
-        _push(`<div class="category-dropdown" data-v-15dcd700><button class="category-dropdown-trigger text-gray-500 hover:text-primary transition-colors font-[&#39;Plus_Jakarta_Sans&#39;] text-sm font-medium tracking-tight cursor-pointer" data-v-15dcd700>${ssrInterpolate(unref(currentCategoryName))} <span class="dropdown-arrow" data-v-15dcd700>▼</span></button>`);
+        _push(`<div class="category-dropdown" data-v-f8232755><button class="category-dropdown-trigger text-gray-500 hover:text-primary transition-colors font-[&#39;Plus_Jakarta_Sans&#39;] text-sm font-medium tracking-tight cursor-pointer" data-v-f8232755>${ssrInterpolate(unref(currentCategoryName))} <span class="dropdown-arrow" data-v-f8232755>▼</span></button>`);
         if (unref(isDropdownOpen)) {
-          _push(`<div class="category-dropdown-menu" data-v-15dcd700><div class="${ssrRenderClass([{ active: !unref(selectedCategoryId) }, "dropdown-item"])}" data-v-15dcd700> 全部分类 </div><!--[-->`);
+          _push(`<div class="category-dropdown-menu" data-v-f8232755><div class="${ssrRenderClass([{ active: !unref(selectedCategoryId) }, "dropdown-item"])}" data-v-f8232755> 全部分类 </div><!--[-->`);
           ssrRenderList(unref(categoryList), (category) => {
-            _push(`<div class="${ssrRenderClass([{ active: unref(selectedCategoryId) === category.id }, "dropdown-item"])}" data-v-15dcd700>${ssrInterpolate(category.name)}</div>`);
+            _push(`<div class="${ssrRenderClass([{ active: unref(selectedCategoryId) === category.id }, "dropdown-item"])}" data-v-f8232755>${ssrInterpolate(category.name)}</div>`);
           });
           _push(`<!--]--></div>`);
         } else {
@@ -3955,17 +3955,17 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
       } else {
         _push(`<!---->`);
       }
-      _push(`</div><div class="flex items-center gap-2" data-v-15dcd700>`);
+      _push(`</div><div class="flex items-center gap-2" data-v-f8232755>`);
       _push(ssrRenderComponent(Search, null, null, _parent));
       _push(ssrRenderComponent(_component_ClientOnly, {
         fallback: "<!-- user-auth-section -->",
         "fallback-tag": "div"
       }, {}, _parent));
-      _push(`<div class="mx-2 flex md:hidden" data-v-15dcd700><button class="flex items-center cursor-pointer" data-v-15dcd700>`);
+      _push(`<div class="mx-2 flex md:hidden" data-v-f8232755><button class="flex items-center cursor-pointer" data-v-f8232755>`);
       _push(ssrRenderComponent(_component_MenuOutlined, { style: { fontSize: "18px" } }, null, _parent));
       _push(`</button></div></div></nav>`);
       if (unref(isMenuOpen)) {
-        _push(`<div class="md:hidden fixed w-full h-full bg-white z-30" data-v-15dcd700><div class="mt-28 flex flex-col" data-v-15dcd700><!--[-->`);
+        _push(`<div class="md:hidden fixed w-full h-full bg-white z-30" data-v-f8232755><div class="mt-28 flex flex-col" data-v-f8232755><!--[-->`);
         ssrRenderList(unref(menu), (item, index) => {
           _push(ssrRenderComponent(_component_NuxtLink, {
             key: index,
@@ -3986,14 +3986,11 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
           }, _parent));
         });
         _push(`<!--]-->`);
-        _push(ssrRenderComponent(_component_ClientOnly, {
-          fallback: "<!-- mobile-user-auth-section -->",
-          "fallback-tag": "div"
-        }, {}, _parent));
+        _push(ssrRenderComponent(_component_ClientOnly, { "fallback-tag": "div" }, {}, _parent));
         if (unref(showMobileCategory)) {
-          _push(`<div class="mb-4 mx-6" data-v-15dcd700><div class="text-xl font-black mb-2" data-v-15dcd700>选择分类</div><div class="flex flex-col gap-2 px-3 border-l-2 border-gray-300" data-v-15dcd700><div class="${ssrRenderClass([{ "text-blue-500 font-bold": !unref(selectedCategoryId) }, "text-base cursor-pointer"])}" data-v-15dcd700> 全部分类 </div><!--[-->`);
+          _push(`<div class="mb-4 mx-6" data-v-f8232755><div class="text-xl font-black mb-2" data-v-f8232755>选择分类</div><div class="flex flex-col gap-2 px-3 border-l-2 border-gray-300" data-v-f8232755><div class="${ssrRenderClass([{ "text-blue-500 font-bold": !unref(selectedCategoryId) }, "text-base cursor-pointer"])}" data-v-f8232755> 全部分类 </div><!--[-->`);
           ssrRenderList(unref(categoryList), (category) => {
-            _push(`<div class="${ssrRenderClass([{ "text-blue-500 font-bold": unref(selectedCategoryId) === category.id }, "text-base cursor-pointer"])}" data-v-15dcd700>${ssrInterpolate(category.name)}</div>`);
+            _push(`<div class="${ssrRenderClass([{ "text-blue-500 font-bold": unref(selectedCategoryId) === category.id }, "text-base cursor-pointer"])}" data-v-f8232755>${ssrInterpolate(category.name)}</div>`);
           });
           _push(`<!--]--></div></div>`);
         } else {
@@ -4013,7 +4010,7 @@ _sfc_main$2.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/AppHeader.vue");
   return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
 };
-const __nuxt_component_1 = /* @__PURE__ */ Object.assign(_export_sfc(_sfc_main$2, [["__scopeId", "data-v-15dcd700"]]), { __name: "AppHeader" });
+const __nuxt_component_1 = /* @__PURE__ */ Object.assign(_export_sfc(_sfc_main$2, [["__scopeId", "data-v-f8232755"]]), { __name: "AppHeader" });
 const _sfc_main$1 = /* @__PURE__ */ defineComponent({
   __name: "AppFooter",
   __ssrInlineRender: true,
@@ -4131,4 +4128,4 @@ _sfc_main.setup = (props, ctx) => {
 };
 
 export { _sfc_main as default };
-//# sourceMappingURL=default-C5X4N65A.mjs.map
+//# sourceMappingURL=default-kiHQNpAi.mjs.map
