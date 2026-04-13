@@ -1,6 +1,11 @@
 {
   "version": "1.0",
-  "lastModified": "2026-04-13T11:06:05.463Z",
+  "lastModified": "2026-04-13T11:31:53.309Z",
   "configurable": true,
-  "env": {}
+  "env": {
+    "VITE_API_BASE_URL": "https://api.com",
+    "VITE_USE_MOCK": "false",
+    "VITE_DEBUG_MODE": "false",
+    "VITE_SHOW_CONSOLE_LOGS": "true"
+  }
 }
