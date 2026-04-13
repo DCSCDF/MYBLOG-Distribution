@@ -24,8 +24,35 @@
         <!--验证码-->
         <script src="/tac/js/tac.min.js"></script>
         <link href="/tac/css/tac.css" rel="stylesheet">
-  <script type="module" crossorigin src="/assets/index-DdKBZlxC.js"></script>
+  <script type="module" crossorigin src="/assets/index-CvBQuby3.js"></script>
   <link rel="stylesheet" crossorigin href="/assets/index-DX7cYfFo.css">
+  <script>(function() {
+  try {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', '/env-config.json', false);
+    xhr.send(null);
+    if (xhr.status === 200) {
+      var cfg = JSON.parse(xhr.responseText);
+      if (cfg && cfg.env) {
+        window.__RUNTIME_CONFIG__ = cfg.env;
+        return;
+      }
+    }
+  } catch(e) {}
+  window.__RUNTIME_CONFIG__ = {
+
+  };
+})();</script>
+  <script>(function() {
+  fetch('/env-config.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      if (data && data.env) {
+        window.__RUNTIME_CONFIG__ = data.env;
+      }
+    })
+    .catch(function() {});
+})();</script>
 </head>
 
 <body>

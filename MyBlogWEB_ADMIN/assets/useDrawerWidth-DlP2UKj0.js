@@ -1,1 +1,0 @@
-import{e as d,g as o,m as t,r}from"./index-DdKBZlxC.js";function s(){const e=r(typeof window<"u"?window.innerWidth:1024),i=t(()=>e.value<1024?350:600);function n(){e.value=window.innerWidth}return d(()=>{window.addEventListener("resize",n)}),o(()=>{window.removeEventListener("resize",n)}),{windowWidth:e,drawerWidth:i}}export{s as u};

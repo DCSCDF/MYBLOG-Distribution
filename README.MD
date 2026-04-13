@@ -1,13 +1,14 @@
 <h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">MyBlog 博客/CMS管理系统</h1>
 
 ---
+## 项目使用的技术栈
 ### 后端
 
 ![MySQL](https://img.shields.io/badge/MySQL-8.4.0-00758F?logo=mysql&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.9-6DB33F?logo=springboot&logoColor=white)
 
-### 前端
+### 前端 
 
 ![Nuxt.js](https://img.shields.io/badge/Nuxt-4.3.1-00DC82?logo=nuxt&logoColor=white)
 ![Pinia](https://img.shields.io/badge/Pinia-3.0.4-FFDD00?logo=pinia)
@@ -25,7 +26,7 @@
 ---
 
 ## 部署教程
-根据下面的文档进行部署各自的模块
+根据下面的文档进行部署各自的模块。点击右上角的CODE按钮，选择下载ZIP压缩包，下载完成解压后根据下面的文档进行部署。
 
 > - [后端部署教程](MyBlogSERVER/readme.md)
 > - [前端部署教程](MyBlogWEB/readme.md)
