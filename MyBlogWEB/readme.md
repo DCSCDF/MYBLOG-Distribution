@@ -5,6 +5,13 @@
 回到上级目录，运行下面的命令
 -  `NUXT_PUBLIC_API_BASE` 为后端地址
 -  `NUXT_PUBLIC_API_BASE` 为前端管理端地址
+
+windows如下：
 ```
 $env:NUXT_PUBLIC_API_BASE="https://3000"; $env:NUXT_PUBLIC_WEB_BASE="https://5173"; node server/index.mjs
+```
+
+linux如下：
+```
+NUXT_PUBLIC_API_BASE="https://3000" NUXT_PUBLIC_WEB_BASE="https://5173" node server/index.mjs
 ```
